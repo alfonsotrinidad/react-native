@@ -37,9 +37,9 @@ container: {
  flex:1,
  padding:10,
  borderStyle:  'solid',
- borderWidth:5,
+ borderWidth:0,
  backgroundColor:'#A9CCE3',
- margin:5
+ margin:0
 },  
 inputgroup:{
   flex: 1,
@@ -54,8 +54,9 @@ inputgroup:{
   color:'blue'
 },
 boton:{
-marginHorizontal:5,
-marginVertical :5
+marginHorizontal:45,
+marginVertical :10,
+borderRadius:20
 },
 titulo:{
   fontSize:20,
@@ -68,7 +69,8 @@ wrap:{
   borderStyle:  'solid',
   borderWidth:1,
   borderColor: 'black',
- 
+  padding:30,
+  borderRadius:20
 }
 });
 
